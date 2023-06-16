@@ -8,10 +8,10 @@
     "docker:pinDigests",
     ":automergeDigest",
     ":enablePreCommit",
-    "github>bjw-s/renovate-config:commit-message",
-    "github>bjw-s/renovate-config:pr-labels",
-    "github>bjw-s/renovate-config:semantic-commits",
-    "github>bjw-s/renovate-config:generic-regex-manager"
+    "github>doonga/renovate-config:commit-message",
+    "github>doonga/renovate-config:pr-labels",
+    "github>doonga/renovate-config:semantic-commits",
+    "github>doonga/renovate-config:generic-regex-manager"
   ],
   "onboarding": false,
   "requireConfig": "optional",
