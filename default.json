@@ -5,7 +5,6 @@
     ":dependencyDashboard",
     ":disableRateLimiting",
     "docker:enableMajor",
-    ":automergeDigest",
     ":enablePreCommit",
     "github>doonga/renovate-config:commit-message",
     "github>doonga/renovate-config:pr-labels",
