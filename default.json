@@ -10,7 +10,7 @@
     "github>doonga/renovate-config:commit-message",
     "github>doonga/renovate-config:pr-labels",
     "github>doonga/renovate-config:semantic-commits",
-    "github>doonga/renovate-config:cystom-managers.json5"
+    "github>doonga/renovate-config:custom-managers.json5"
   ],
   "timezone": "America/New_York",
   "dependencyDashboardTitle": "Renovate Dashboard",
