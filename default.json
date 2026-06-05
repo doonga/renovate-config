@@ -3,13 +3,13 @@
   "extends": [
     "config:recommended",
     "docker:enableMajor",
-    "helpers:pinGitHubActionDigests",
-    "github>doonga/renovate-config:custom-managers.json5",
-    "github>doonga/renovate-config:commit-message",
-    "github>doonga/renovate-config:pr-labels",
     ":dependencyDashboard",
     ":disableRateLimiting",
-    ":enablePreCommit"
+    ":enablePreCommit",
+    "helpers:pinGitHubActionDigests",
+    "github>home-operations/renovate-presets//policies/semanticCommits.json5#1.3.1",
+    "github>home-operations/renovate-presets//managers/annotated.json5#1.3.1",
+    "local>doonga/renovate-config:pr-labels"
   ],
   "timezone": "America/New_York",
   "dependencyDashboardTitle": "Renovate Dashboard",
@@ -19,5 +19,10 @@
   ],
   "commitBodyTable": true,
   "rebaseWhen": "auto",
+  "renovate-config": {
+    "managerFilePatterns": [
+      "/\\.renovate\\/.*\\.json5?$/"
+    ]
+  },
   "platformCommit": "enabled"
 }
