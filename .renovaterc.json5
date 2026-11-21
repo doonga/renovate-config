@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>todd/renovate-config"
+    "local>greyrock-labs/renovate-config"
   ],
   "renovate-config": {
     "managerFilePatterns": [
